@@ -41,8 +41,6 @@ processes = []
   internal_port = 53
   protocol = "udp"
   [services.concurrency]
-    hard_limit = 50
-    soft_limit = 40
     type = "connections"
 
   [[services.ports]]
@@ -52,8 +50,6 @@ processes = []
   internal_port = 53
   protocol = "tcp"
   [services.concurrency]
-    hard_limit = 50
-    soft_limit = 40
     type = "connections"
 
   [[services.ports]]
